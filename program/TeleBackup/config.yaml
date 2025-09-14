@@ -1,0 +1,30 @@
+telegram:
+  bot_token: 1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  channel_id: -1002751981352
+  max_file_size: 48 MB
+  split_chunks: true
+  advertise_in_telegram: true
+backup:
+  compression: deflated
+  exclude:
+  - '*.tmp'
+  - '*.log'
+  - Thumbs.db
+  min_change_percent: 1
+  smart_backup: true
+  sources:
+  - C:\tmp\AutoLogger.zip
+  - C:\Users\user\Downloads\Wub\
+  - c:\Users\User\Downloads\Telegram Desktop\pestudio.zip
+  - c:\Users\User\Downloads\Logs\
+  - c:\Users\User\Downloads\Logs2\
+logging:
+  file: backup.log
+  level: INFO
+security:
+  encryption: none
+  password: '112233'
+storage:
+  backup_dir: ./backups
+  keep_local_days: 7
+  local_copy: true
