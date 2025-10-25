@@ -6,7 +6,7 @@ TeleBackup создаёт резервные копии файлов и папо
 Telegram можно использовать, как личное облако для хранения файлов и резервных копий. Для этого достаточно создать приватный канал и пользоваться им, как облаком для личных нужд. Программа TeleBackup позволит автоматизировать процесс создания бэкапов и загрузки в Telegram.
 
 
-[Скачать релиз](https://github.com/artemsoft2025/TeleBackup/releases/download/v1.0.0/TeleBackup.zip)
+[Скачать релиз](https://github.com/artemsoft2025/TeleBackup/releases)
 
 ---
 
